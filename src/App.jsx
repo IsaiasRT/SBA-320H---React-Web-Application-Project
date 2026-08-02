@@ -6,7 +6,6 @@ import Monsters from "./pages/Monsters.jsx";
 import MonsterDetails from "./pages/MonsterDetails.jsx";
 import HunterJournal from "./pages/HunterJournal.jsx";
 import Favorites from "./pages/Favorites.jsx";
-import Statistics from "./pages/Statistics.jsx";
 import About from "./pages/About.jsx";
 
 function Layout() {
@@ -43,7 +42,6 @@ export default function App() {
             <Route path="/monsters/:id" element={<MonsterDetails />} />
             <Route path="/journal" element={<HunterJournal />} />
             <Route path="/favorites" element={<Favorites />} />
-            <Route path="/statistics" element={<Statistics />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Route>

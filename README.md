@@ -17,7 +17,6 @@ The app features a monster encyclopedia with search, filtering, and pagination, 
 -  Favorite monsters and build a hunting wishlist
 -  Keep a journal of every hunt with weapon, result, difficulty, and notes
 -  Track defeated monsters and rating their difficulty
--  Unlock achievements and view hunting statistics
 -  Switch between dark and light themes
 
 The project demonstrates React routing, Context API state management, external API integration, localStorage persistence, and modern React best practices.
@@ -38,19 +37,19 @@ The project demonstrates React routing, Context API state management, external A
 
 ## 📝 Requirements
 
-- [] Utilize reasonable component organization with reusable, functional components. 
-- [] Create GET-style data views for all data exposed to the user using appropriate API consumption. 
-- [] Create form submission for creating new data (journal entries). 
+- [x] Utilize reasonable component organization with reusable, functional components. 
+- [x] Create GET-style data views for all data exposed to the user using appropriate API consumption. 
+- [x] Create form submission for creating new data (journal entries). 
 - [] Create update flows so users can edit existing data (edit journal entries). 
-- [] Create delete flows so users can remove data (delete journal entries).
+- [x] Create delete flows so users can remove data (delete journal entries).
 - [] Include search and filtering for frequently queried data (search, species/type/element filters). 
-- [] Include input validation for at least one form.
-- [] Utilize reasonable code organization practices (pages, components, context, hooks, services, utils). 
-- [] Ensure the application runs without errors.
-- [] Commit frequently to the Git repository.
+- [x] Include input validation for at least one form.
+- [x] Utilize reasonable code organization practices (pages, components, context, hooks, services, utils). 
+- [x] Ensure the application runs without errors.
+- [x] Commit frequently to the Git repository.
 - [x] Include a README.md
 - [X] Don't use redux
-- [] Demonstrate **creativity and effort** in the application's design and user experience. 
+- [x] Demonstrate **creativity and effort** in the application's design and user experience. 
 
 ---
 
@@ -63,7 +62,6 @@ The project demonstrates React routing, Context API state management, external A
 | `/monsters/:id` | MonsterDetails | Full monster profile: weaknesses, resistances, elements, ailments, locations, parts, rewards 
 | `/journal` | Hunter Journal | Full CRUD journal with per-monster filtering and date sorting 
 | `/favorites` | Favorites | Favorite monsters, weapon reference, and hunting wishlist 
-| `/statistics` | Statistics | Hunting stats, completion progress, and 10 unlockable achievements 
 | `/about` | About | Project overview, tech stack, and feature list 
 | `*` | NotFound | 404 page 
 
