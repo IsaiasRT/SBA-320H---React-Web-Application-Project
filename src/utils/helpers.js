@@ -57,14 +57,14 @@ export function average(values) {
 }
 
 const PALETTE = [
-  "linear-gradient(135deg, #2b5876, #4e4376)",
-  "linear-gradient(135deg, #134e5e, #71b280)",
-  "linear-gradient(135deg, #7b4397, #dc2430)",
-  "linear-gradient(135deg, #f7971e, #ffd200)",
-  "linear-gradient(135deg, #c94b4b, #4b134f)",
-  "linear-gradient(135deg, #1d976c, #93f9b9)",
-  "linear-gradient(135deg, #3a1c71, #d76d77)",
-  "linear-gradient(135deg, #0f2027, #203a43)",
+  "#2b5876",
+  "#134e5e",
+  "#7b4397",
+  "#f7971e",
+  "#c94b4b",
+  "#1d976c",
+  "#3a1c71",
+  "#0f2027",
 ];
 
 export function monsterImageStyle(monster) {
